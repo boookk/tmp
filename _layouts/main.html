@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<header class="site-category">
+<!-- <header class="site-category">
   <ul>
     
     {% assign pages_list = site.pages %}
@@ -16,7 +16,7 @@ layout: default
     {% endfor %}
     
 </ul>
-</header>
+</header> -->
 
 <aside class="sidebar">
   <header>
@@ -70,6 +70,11 @@ layout: default
     </div>
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
+
+<div class="category-box">
+  {% include category.html %}
+</div>
+
 <div class="content-box clearfix">
   {{ content }}
 </div>
