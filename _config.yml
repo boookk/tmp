@@ -8,7 +8,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: BOGYEONG KANG
 author-img: profile.JPG
-about-author: Maybe I am a Development.
+about-author: I'm an engineering student.
 # social-twitter: # add your Twitter handle
 # social-facebook: # add your Facebook handle
 social-instagram: b_o_kk
@@ -29,7 +29,7 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 8
+paginate: 10
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
