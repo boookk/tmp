@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Installing Android Studio on Ubuntu 20.04 
