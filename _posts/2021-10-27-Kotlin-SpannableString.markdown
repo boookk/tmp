@@ -5,7 +5,11 @@ date: 2021-10-27 00:00:00 +0300
 tags: [Kotlin, Learn]
 ---
 
-## 💙️ Kotlin TextView 
+## 💙️ Kotlin TextView
+
+<br>
+<center><img src="/assets/img/kotlin/kotlin_textview.png" alt="Drawing"/></center>
+<br>
 
 ### ❓ SpannableString
 
@@ -35,7 +39,3 @@ private fun setText(date: String, day: String): SpannableString {
 ```kotlin
 binding.tvRange.setText(setRange(strDate, "+$day"), TextView.BufferType.SPANNABLE)
 ```
-
-<br>
-<center><img src="/assets/img/kotlin/kotlin_textview.png" alt="Drawing"/></center>
-<br>
