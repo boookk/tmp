@@ -17,7 +17,7 @@ SpannableString class는 텍스트를 출력할 때 텍스트 일부의 색상, 
 
 아래는 현재 진행하고 있는 프로젝트에 적용한 예시이다.
 
-TextView의 내용 중 일부 글자에 다른 속성을 적용하기 위해 SpannableString class를 사용하였다.
+TextView의 내용 중 오른쪽 디데이에 포인트를 주고 싶어서 SpannableString class를 사용하였다.
 
 
 
@@ -27,11 +27,11 @@ private fun setText(date: String, day: String): SpannableString {
   val start = date.length + tab.length
   val end = date.length + tab.length + day.length
   val spannable = SpannableString("$date$tab$day")
-  // 재배 기간 글자 색상 변경
+  // 글자 색상 변경
   spannable.setSpan(ForegroundColorSpan(getColor(R.color.blue)), start, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
-  // 재배 기간 글자 스타일 변경
+  // 글자 스타일 변경
   spannable.setSpan(StyleSpan(Typeface.BOLD), start, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-  // 재배 기간 글자 크기 변경
+  // 글자 크기 변경
   spannable.setSpan(RelativeSizeSpan(1.3f), start, end, SpannableString.SPAN_EXCLUSIVE_EXCLUSIVE);
 }
 ```
