@@ -5,7 +5,7 @@ date: 2021-10-27 00:00:00 +0300
 tags: [Kotlin, Learn]
 ---
 
-## 💙️ Kotlin TextView
+## 💙️ Kotlin SpannableString
 
 <br>
 <center><img src="/assets/img/kotlin/kotlin_textview.png" alt="Drawing"/></center>
