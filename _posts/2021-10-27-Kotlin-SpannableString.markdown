@@ -2,13 +2,14 @@
 layout: post
 title: Kotlin SpannableString
 date: 2021-10-27 00:00:00 +0300
+img: kotlin/kotlin_logo.png
 tags: [Kotlin, Learn]
 ---
 
 ## 💙️ Kotlin SpannableString
 
 <br>
-<center><img src="/assets/img/kotlin/kotlin_textview.png" alt="Drawing"/></center>
+<center><img src="/assets/img/kotlin/kotlin_spannableString.png" alt="Drawing"/></center>
 <br>
 
 ### ❓ SpannableString
