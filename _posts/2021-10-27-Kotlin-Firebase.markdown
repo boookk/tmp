@@ -2,6 +2,7 @@
 layout: post
 title: Kotlin Firebase
 date: 2021-10-27 00:00:00 +0300
+img: kotlin/kotlin_logo.png
 tags: [Kotlin, Learn]
 ---
 
