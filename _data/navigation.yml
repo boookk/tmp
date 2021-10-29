@@ -1,0 +1,5 @@
+main:
+  - title: "Quick-Start Guide"
+  sublink:
+  - title: "test"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
