@@ -2,7 +2,7 @@
 layout: post
 title: SQLD 합격 후기
 date: 2021-10-3 00:00:00 +0300
-<!-- img: certificate/sqld.PNG -->
+img: certificate/sql.png
 tags: [SQLD, Learn]
 ---
 
