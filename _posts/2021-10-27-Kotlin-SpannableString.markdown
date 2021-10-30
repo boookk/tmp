@@ -39,7 +39,9 @@ private fun setRange(date: String, day: String): SpannableString {
 }
 ```
 
+
 2. 함수를 호출한다. (두 번째 매개변수에 해당하는 텍스트의 스타일을 변경할 것이다.)
+
 ``` kotlin
 binding.tvRange.setText(setRange(strDate, "+$day"), TextView.BufferType.SPANNABLE)
 ```
