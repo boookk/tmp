@@ -1160,9 +1160,15 @@ footer .copyright {
   font-size: 30px;
   font-weight: 400;
 }
-
+@font-face {
+	font-family: 'Noto Sans KR';
+	src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+	font-weight: normal;
+	font-style: normal;
+}
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif;
+/*   font-family: 'PT Serif', serif; */
+  font-family: 'Noto Sans KR';
   text-decoration: none;
   color: #263959;
 }
