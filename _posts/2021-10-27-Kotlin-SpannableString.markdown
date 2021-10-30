@@ -20,9 +20,7 @@ SpannableString class는 텍스트를 출력할 때 텍스트 일부의 색상, 
 
 TextView의 내용 중 오른쪽 디데이에 포인트를 주고 싶어서 SpannableString class를 사용하였다.
 
-<script src="https://gist.github.com/boookk/ccd17b48f85bb00ace20f59a9ce0bd24.js"></script>
-
-```kotlin
+``` kotlin
 private fun setRange(date: String, day: String): SpannableString {
   val start = date.length
   val end = date.length + day.length
@@ -34,6 +32,7 @@ private fun setRange(date: String, day: String): SpannableString {
   // 글자 크기 변경
   spannable.setSpan(RelativeSizeSpan(1.3f), start, end, SpannableString.SPAN_EXCLUSIVE_EXCLUSIVE);
 }
-
+```
+``` kotlin
 binding.tvRange.setText(setRange(strDate, "+$day"), TextView.BufferType.SPANNABLE)
 ```
