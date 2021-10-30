@@ -23,5 +23,17 @@ TextView의 내용 중 오른쪽 디데이에 포인트를 주고 싶어서 Span
 <script src="https://gist.github.com/boookk/ccd17b48f85bb00ace20f59a9ce0bd24.js"></script>
 
 ```kotlin
+private fun setRange(date: String, day: String): SpannableString {
+  val start = date.length
+  val end = date.length + day.length
+  val spannable = SpannableString("$date$day")
+  // 글자 색상 변경
+  spannable.setSpan(ForegroundColorSpan(getColor(R.color.blue)), start, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+  // 글자 스타일 변경
+  spannable.setSpan(StyleSpan(Typeface.BOLD), start, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+  // 글자 크기 변경
+  spannable.setSpan(RelativeSizeSpan(1.3f), start, end, SpannableString.SPAN_EXCLUSIVE_EXCLUSIVE);
+}
+
 binding.tvRange.setText(setRange(strDate, "+$day"), TextView.BufferType.SPANNABLE)
 ```
