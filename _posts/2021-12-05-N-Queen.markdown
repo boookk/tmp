@@ -13,4 +13,4 @@ dkfjsdla;kj;fa
 dfksja;lkd
 sdfkjs;kfas;
 
-{ % linkpreview "https://programmers.co.kr/learn/courses/30/lessons/12952" % \}
+<!-- { % linkpreview "https://programmers.co.kr/learn/courses/30/lessons/12952" % \} -->
