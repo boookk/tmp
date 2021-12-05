@@ -6,4 +6,7 @@ img: certificate/sql.png
 tags: [Algorithm, Programmers]
 ---
 
+## ✏️ <mark style='background-color: #fff5b1'> N-Queen </mark>
+
+
 { % linkpreview "https://programmers.co.kr/learn/courses/30/lessons/12952" % \}
