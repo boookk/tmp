@@ -2,7 +2,6 @@
 layout: post
 title: [프로그래머스] Python N-Queen 
 date: 2021-12-05 00:00:00 +0300
-img: certificate/sql.png
 tags: [Algorithm, Programmers]
 ---
 
@@ -27,6 +26,3 @@ tags: [Algorithm, Programmers]
 
 1. column 차이와 row 차이가 같은지 확인
 2. 퀸의 위치를 2차원이 아닌 1차원 리스트로 관리
-
-
-<!-- { % linkpreview "https://programmers.co.kr/learn/courses/30/lessons/12952" % \} -->
