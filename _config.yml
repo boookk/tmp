@@ -28,6 +28,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
+  - jekyll-linkpreview
 
 paginate: 10
 paginate_path: "/page/:num"
