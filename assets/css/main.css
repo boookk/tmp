@@ -1160,12 +1160,20 @@ footer .copyright {
   font-size: 30px;
   font-weight: 400;
 }
-@font-face {
+/*@font-face {
 	font-family: 'Noto Sans KR';
 	src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
 	font-weight: normal;
 	font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
+
 .post .post-content .post-title a {
 /*   font-family: 'PT Serif', serif; */
   font-family: 'Noto Sans KR';
