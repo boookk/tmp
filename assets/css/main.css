@@ -773,7 +773,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'RIDIBatang', sans-serif;
   color: #515151;
   background-color: #fbfbfb;
   margin: 0;
@@ -1176,7 +1176,7 @@ footer .copyright {
 
 .post .post-content .post-title a {
 /*   font-family: 'PT Serif', serif; */
-  font-family: 'Noto Sans KR';
+  font-family: 'RIDIBatang';
   text-decoration: none;
   color: #263959;
 }
