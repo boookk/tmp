@@ -29,10 +29,6 @@ plugins:
   - jekyll-paginate
   - jemoji
   - jekyll-linkpreview
-  - jekyll-gist
-  - jekyll-coffeescript
-  - jekyll-assets
-  - another-jekyll-plugin
 
 paginate: 10
 paginate_path: "/page/:num"
