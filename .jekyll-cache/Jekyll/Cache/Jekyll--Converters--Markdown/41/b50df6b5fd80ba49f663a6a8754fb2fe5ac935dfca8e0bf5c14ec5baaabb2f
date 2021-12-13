@@ -1,0 +1,44 @@
+I"1<h2 id="️--n-queen-">✏️ <mark style="background-color: #ffd33d"> N-Queen </mark></h2>
+
+<div class="jekyll-linkpreview-wrapper">
+  <p><a href="https://programmers.co.kr/learn/courses/30/lessons/12952" target="_blank">https://programmers.co.kr/learn/courses/30/lessons/12952</a></p>
+  <div class="jekyll-linkpreview-wrapper-inner">
+    <div class="jekyll-linkpreview-content">
+<div class="jekyll-linkpreview-image">
+  <a href="https://programmers.co.kr/learn/courses/30/lessons/12952" target="_blank">
+    <img src="https://programmers.co.kr/assets/img-meta-programmers-e00862a7c9acd8ef5164f8c85b3ab0127d083ab59b3a98d7219690bd3570bf35.png" />
+  </a>
+</div>
+
+      <div class="jekyll-linkpreview-body">
+        <h2 class="jekyll-linkpreview-title">
+          <a href="https://programmers.co.kr/learn/courses/30/lessons/12952" target="_blank">프로그래머스</a>
+        </h2>
+        <div class="jekyll-linkpreview-description">코드 중심의 개발자 채용. 스택 기반의 포지션 매칭. 프로그래머스의 개발자 맞춤형 프로필을 등록하고, 나와 기술 궁합이 잘 맞는 기업들을 매칭 받으세요.</div>
+      </div>
+    </div>
+    <div class="jekyll-linkpreview-footer">
+      <a href="//programmers.co.kr" target="_blank">programmers.co.kr</a>
+    </div>
+  </div>
+</div>
+
+<h3 id="-풀이-방법">❓ 풀이 방법</h3>
+
+<p>사실 처음 보자마자 dfs로 풀어야 겠다고 생각하고 이중 for문에 deque를 쓰면서 풀었다.</p>
+
+<p>그 결과 테스트 케이스 2/3 정도 틀렸다 😆</p>
+
+<h3 id="-내-풀이의-문제점">❓ 내 풀이의 문제점</h3>
+
+<p>퀸이 대각선에 있는 경우를 제대로 고려하지 못한 것으로 분석된다.</p>
+
+<h3 id="️-해결-방법">✏️ 해결 방법</h3>
+
+<p><mark style="background-color: #fff5b1"> 퀸은 가로, 세로, 대각선으로 이동할 수 있기 때문에 같은 행, 열, 대각선에 위치할 수 없다. </mark></p>
+
+<ol>
+  <li>column 차이와 row 차이가 같은지 확인</li>
+  <li>퀸의 위치를 2차원이 아닌 1차원 리스트로 관리</li>
+</ol>
+:ET
