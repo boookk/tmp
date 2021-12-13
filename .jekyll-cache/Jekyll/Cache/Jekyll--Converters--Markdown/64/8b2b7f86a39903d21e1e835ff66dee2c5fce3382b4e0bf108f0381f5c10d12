@@ -1,0 +1,5 @@
+I"P<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-add-repository ppa:maarten-fonville/android-studio
+<span class="nb">sudo </span>apt-get update
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>android-studio
+</code></pre></div></div>
+:ET

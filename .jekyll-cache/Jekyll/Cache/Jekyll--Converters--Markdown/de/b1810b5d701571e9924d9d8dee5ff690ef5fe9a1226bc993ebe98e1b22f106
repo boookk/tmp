@@ -1,0 +1,36 @@
+I"<h2 id="️-kotlin-spannablestring">💙️ Kotlin SpannableString</h2>
+
+<p><br /></p>
+<center><img src="/assets/img/kotlin/kotlin_spannableString.png" alt="Drawing" /></center>
+<p><br /></p>
+
+<h3 id="-spannablestring">❓ SpannableString</h3>
+
+<p>SpannableString class는 텍스트를 출력할 때 텍스트 일부의 색상, 크기, 스타일 등을 변경할 때 사용한다.</p>
+
+<p>위의 사진은 현재 진행하고 있는 프로젝트에 적용한 예시이다.</p>
+
+<p>TextView의 내용 중 오른쪽 디데이에 포인트를 주고 싶어서 SpannableString class를 사용하였다.</p>
+
+<h3 id="-process">❓ Process</h3>
+
+<h4 id="1-아래와-같이-디데이를-변경해-줄-함수를-구현하였다">1. 아래와 같이 디데이를 변경해 줄 함수를 구현하였다.</h4>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">private</span> <span class="k">fun</span> <span class="nf">setRange</span><span class="p">(</span><span class="n">date</span><span class="p">:</span> <span class="nc">String</span><span class="p">,</span> <span class="n">day</span><span class="p">:</span> <span class="nc">String</span><span class="p">):</span> <span class="nc">SpannableString</span> <span class="p">{</span>
+  <span class="kd">val</span> <span class="py">start</span> <span class="p">=</span> <span class="n">date</span><span class="p">.</span><span class="n">length</span>
+  <span class="kd">val</span> <span class="py">end</span> <span class="p">=</span> <span class="n">date</span><span class="p">.</span><span class="n">length</span> <span class="p">+</span> <span class="n">day</span><span class="p">.</span><span class="n">length</span>
+  <span class="kd">val</span> <span class="py">spannable</span> <span class="p">=</span> <span class="nc">SpannableString</span><span class="p">(</span><span class="s">"$date$day"</span><span class="p">)</span>
+  <span class="c1">// 글자 색상 변경</span>
+  <span class="n">spannable</span><span class="p">.</span><span class="nf">setSpan</span><span class="p">(</span><span class="nc">ForegroundColorSpan</span><span class="p">(</span><span class="nf">getColor</span><span class="p">(</span><span class="nc">R</span><span class="p">.</span><span class="n">color</span><span class="p">.</span><span class="n">blue</span><span class="p">)),</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="nc">Spannable</span><span class="p">.</span><span class="nc">SPAN_EXCLUSIVE_EXCLUSIVE</span><span class="p">)</span>
+  <span class="c1">// 글자 스타일 변경</span>
+  <span class="n">spannable</span><span class="p">.</span><span class="nf">setSpan</span><span class="p">(</span><span class="nc">StyleSpan</span><span class="p">(</span><span class="nc">Typeface</span><span class="p">.</span><span class="nc">BOLD</span><span class="p">),</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="nc">Spannable</span><span class="p">.</span><span class="nc">SPAN_EXCLUSIVE_EXCLUSIVE</span><span class="p">);</span>
+  <span class="c1">// 글자 크기 변경</span>
+  <span class="n">spannable</span><span class="p">.</span><span class="nf">setSpan</span><span class="p">(</span><span class="nc">RelativeSizeSpan</span><span class="p">(</span><span class="mf">1.3f</span><span class="p">),</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="nc">SpannableString</span><span class="p">.</span><span class="nc">SPAN_EXCLUSIVE_EXCLUSIVE</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="2-함수를-호출한다-두-번째-매개변수에-해당하는-텍스트의-스타일을-변경할-것이다">2. 함수를 호출한다. (두 번째 매개변수에 해당하는 텍스트의 스타일을 변경할 것이다.)</h4>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">binding</span><span class="p">.</span><span class="n">tvRange</span><span class="p">.</span><span class="nf">setText</span><span class="p">(</span><span class="nf">setRange</span><span class="p">(</span><span class="n">strDate</span><span class="p">,</span> <span class="s">"+$day"</span><span class="p">),</span> <span class="nc">TextView</span><span class="p">.</span><span class="nc">BufferType</span><span class="p">.</span><span class="nc">SPANNABLE</span><span class="p">)</span>
+</code></pre></div></div>
+:ET
