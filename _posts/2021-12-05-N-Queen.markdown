@@ -7,7 +7,7 @@ tags: [Algorithm, Programmers]
 
 ## ✏️ <mark style='background-color: #ffd33d'> N-Queen </mark>
 
-{ % linkpreview "https://programmers.co.kr/learn/courses/30/lessons/12952" % }
+{% linkpreview "https://programmers.co.kr/learn/courses/30/lessons/12952" %}
 
 
 ### ❓ 풀이 방법
