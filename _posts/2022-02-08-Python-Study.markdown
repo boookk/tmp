@@ -2,7 +2,7 @@
 layout: post
 title: "[이코테]Python 문법"
 date: 2022-02-08 00:00:00 +0300
-img: python/python.png
+img: python/python.PNG
 tags: [Algorithm, Python, Learn]
 ---
 
