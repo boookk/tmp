@@ -113,14 +113,14 @@ from itertools import combinationswith_replacement
 
 <br>
 
-### <mark style='background-color: #fff5b1'>  </mark> collections
+### <mark style='background-color: #fff5b1'> collections </mark>
 ```python
 from collections import Counter
 ```
 
 <br>
 
-### <mark style='background-color: #fff5b1'>  </mark> math
+### <mark style='background-color: #fff5b1'> math </mark>
 ```python
 import math
 
