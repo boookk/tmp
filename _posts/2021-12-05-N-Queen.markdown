@@ -7,8 +7,9 @@ tags: [Algorithm, Programmers]
 
 ## 📚 <mark style='background-color: #ffd33d'> N-Queen </mark>
 
-출처 : https://programmers.co.kr/learn/courses/30/lessons/12952
+출처 : <https://programmers.co.kr/learn/courses/30/lessons/12952>
 
+<br>
 
 ### ❓ 풀이 방법
 
@@ -16,11 +17,13 @@ tags: [Algorithm, Programmers]
 
 그 결과 테스트 케이스 2/3 정도 틀렸다 😆
 
+<br>
 
 ### 📍 내 풀이의 문제점
 
 퀸이 대각선에 있는 경우를 제대로 고려하지 못한 것으로 분석된다.
 
+<br>
 
 ### 💡 해결 방법
 
