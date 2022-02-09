@@ -90,6 +90,7 @@ print(s1.difference(s2))
 # 문자열 형태의 식을 계산해주는 함수
 print(eval("2+3"))
 ```
+<mark style='background-color: #ffdce0'> 만약, 피연산자 앞에 0이 붙어 있는 경우, 오류가 발생한다. </mark> (Ex. 1+01)
 
 <br><br>
 
