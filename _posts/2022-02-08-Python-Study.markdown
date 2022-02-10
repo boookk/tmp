@@ -116,7 +116,28 @@ from itertools import combinationswith_replacement
 
 ### <mark style='background-color: #fff5b1'> collections </mark>
 ```python
+# 카운팅
 from collections import Counter
+
+a = ['apple', 'banana', 'apple']
+counter = Counter(a)
+
+# 업데이트
+counter.update(a)
+
+# 가장 빈도가 높은 순으로 n개 출력
+print(counter.most_common(n))
+```
+
+```python
+# 큐 구현
+# 리스트를 사용하는 경우보다 효율성이 높다.
+from collections import deque
+
+queue = deque()
+
+queue.append(1)
+queue.popleft()
 ```
 
 <br>
