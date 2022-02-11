@@ -13,6 +13,7 @@ tags: [Algorithm, Python, Learn]
 ```python
 a = [i for i in range(5)]
 ```
+
 <br>
 
 ### <mark style='background-color: #fff5b1'> 리스트에서 특정 값을 가지는 원소를 모두 제거하기 </mark>
