@@ -3,6 +3,7 @@ layout: post
 title: "Python 문법"
 date: 2022-02-08 00:00:00 +0300
 img: python/python.PNG
+categories : [Python]
 tags: [Algorithm, Python, Learn]
 ---
 
