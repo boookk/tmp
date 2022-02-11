@@ -34,4 +34,13 @@ def lcm(a, b):
 
 <br><br>
 
+# 📚 math
+### <mark style='background-color: #fff5b1'> 라이브러리를 사용하여 구하기 </mark>
+```python
+import math
+# 최대 공약수
+print(math.gcd(6, 9))
+# 최소 공배수
+print(math.lcm(2, 3))
+```
 
