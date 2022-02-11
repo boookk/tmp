@@ -139,16 +139,3 @@ queue = deque()
 queue.append(1)
 queue.popleft()
 ```
-
-<br>
-
-### <mark style='background-color: #fff5b1'> math </mark>
-```python
-import math
-
-# 최대 공약수
-print(math.gcd(6, 9))
-
-# 최소 공배수
-print(math.lcm(2, 3))
-```
