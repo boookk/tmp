@@ -5,7 +5,7 @@ date: 2021-07-03 00:00:00 +0300
 tags: [Git]
 ---
 
-## <mark style='background-color: #ffd33d'> Git </mark>
+## 📚 Git
 
 - 소스 코드의 버전 관리 프로그램
 - 여러 개발자와의 협업 가능
@@ -15,7 +15,7 @@ tags: [Git]
 <br>
 
 
-## <mark style='background-color: #fff5b1'> 저장소의 프로젝트를 Local 저장소로 복제 </mark>
+## 📚 저장소의 프로젝트를 Local 저장소로 복제
 ```
 git clone <url>
 ```
@@ -24,7 +24,7 @@ git clone <url>
 <br>
 
 
-## <mark style='background-color: #fff5b1'> 내 컴퓨터에서 디렉토리를 만들어 시작하는 경우 </mark>
+## 📚 내 컴퓨터에서 디렉토리를 만들어 시작하는 경우
 ```
 cd ./디렉토리
 git init
@@ -37,7 +37,7 @@ git remote add <저장소> <url>
 <br>
 
 
-## <mark style='background-color: #fff5b1'> git 저장소마다 다른 계정으로 설정 가능 </mark>
+## 📚 git 저장소마다 다른 계정으로 설정 가능
 ```
 git config user.name "name"
 git config user.email "@"
@@ -47,7 +47,7 @@ git config user.email "@"
 <br>
 
 
-## <mark style='background-color: #fff5b1'> git commit log 확인 </mark>
+## 📚 git commit log 확인
 ```
 git log
 ```
@@ -57,7 +57,7 @@ git log
 <br>
 
 
-## <mark style='background-color: #fff5b1'> 전체 commit log 확인 </mark>
+## 📚 전체 commit log 확인
 ```
 git log --all --graph
 ```
@@ -66,7 +66,7 @@ git log --all --graph
 <br>
 
 
-## <mark style='background-color: #fff5b1'> HEAD가 가리켰던 커밋 기록을 모두 보여준다 </mark>
+## 📚 HEAD가 가리켰던 커밋 기록을 모두 확인
 ```
 git reflog
 ```
@@ -76,7 +76,7 @@ git reflog
 <br>
 
 
-## <mark style='background-color: #fff5b1'> git commit 내용 비교 </mark>
+## 📚 git commit 내용 비교
 ```
 git diff <commit_id> <commit_id>
 ```
@@ -86,7 +86,7 @@ git diff <commit_id> <commit_id>
 <br>
 
 
-## <mark style='background-color: #fff5b1'> 원하는 commit 시점으로 변경 </mark>
+## 📚 원하는 commit 시점으로 변경
 ```
 git reset --option <commit_id>
 ```
@@ -100,7 +100,7 @@ git reset --option <commit_id>
 <br>
 
 
-## <mark style='background-color: #fff5b1'> git의 현재상태 </mark>
+## 📚 git의 현재상태
 ```
 git status
 ```
@@ -109,7 +109,7 @@ git status
 <br>
 
 
-## <mark style='background-color: #fff5b1'> git branch 생성 </mark>
+## 📚 git branch 생성
 ```
 git branch <branch_name>
 ```
@@ -118,7 +118,7 @@ git branch <branch_name>
 <br>
 
 
-## <mark style='background-color: #fff5b1'> git branch 변경 </mark>
+## 📚 git branch 변경
 ```
 git checkout <branch_name>
 ```
@@ -127,7 +127,7 @@ git checkout <branch_name>
 <br>
 
 
-## <mark style='background-color: #fff5b1'> HEAD가 가리키는 branch에 target_branch 병합 </mark>
+## 📚 HEAD가 가리키는 branch에 target_branch 병합
 ```
 git merge <target_branch_name>
 ```
@@ -138,7 +138,7 @@ git merge <target_branch_name>
 <br>
 
 
-## <mark style='background-color: #fff5b1'> 원격 저장소에 변경 사항 업로드 </mark>
+## 📚 원격 저장소에 변경 사항 업로드
 ```
 git push -u origin master
 ```
@@ -152,7 +152,7 @@ git push -u origin master
 <br>
 
 
-## <mark style='background-color: #fff5b1'> fork </mark>
+## 📚 fork
 - 원본 프로젝트와 동일한 복제 프로젝트 만들기
 - 복제 프로젝트로 작업 후 원본 프로젝트로 merge request 보내기
 
