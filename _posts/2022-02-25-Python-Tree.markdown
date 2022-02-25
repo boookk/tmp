@@ -12,6 +12,7 @@ tags: [Algorithm, Python, Learn]
 
 
 ### <mark style='background-color: #fff5b1'> 트리 관련 용어 </mark>
+
 | 명칭 | 의미 |
 |:----:|:----:|
 | 루트 노드 (root node) | 부모가 없는 최상위 노드 |
