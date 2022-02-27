@@ -17,7 +17,7 @@ tags: [Algorithm, Python, Learn]
 | peek() | 맨 앞의 데이터 보기 |
 | isEmpty() | 스택의 사용 여부 반환 |
 
-> FILO 
+> LIFO
 
 
 <br>
