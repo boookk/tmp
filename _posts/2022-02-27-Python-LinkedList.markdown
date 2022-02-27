@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LinkedList"
-date: 2022-02-28 00:00:00 +0300
+date: 2022-02-27 00:00:00 +0300
 tags: [Algorithm, Python, Learn]
 ---
 
