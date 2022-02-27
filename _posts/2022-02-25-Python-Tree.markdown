@@ -26,28 +26,35 @@ tags: [Algorithm, Python, Learn]
 <br><br>
 
 
-# 📚 이진 탐색 트리
-- 이진 탐색이 동작할 수 있도록 고안된 효율적인 탐색이 가능한 자료구조의 일종
-- 왼쪽 자식 노드  < 부모 노드 < 오른쪽 자식 노드
-
-
-<br><br>
-
-
 # 📚 트리의 순회
 - 트리 자료구조에 포함된 노드를 특정한 방법으로 한 번씩 방문하는 방법
 
 ### <mark style='background-color: #fff5b1'> 전위 순회 </mark> (Pre-order traverse)
-- 루트를 먼저 방문한다.
+```python
+def preorderTraversal(node):
+  print(node)
+  if node.left: preorderTraversal(node.left)
+  if node.right: preorederTraversal(node.right)
+```
 
 <br>
 
 ### <mark style='background-color: #fff5b1'> 중위 순회 </mark> (In-order traverse)
-- 왼쪽 자식을 방문한 뒤에 루트를 방문한다.
+```python
+def inorderTraversal(node):
+  if node.left: inorderTraversal(node.left)
+  print(node)
+  if node.right: inorderTraversal(node.right)
+```
 
 <br>
 
 ### <mark style='background-color: #fff5b1'> 후위 순회 </mark> (Post-order traverse)
-- 오른쪽 자식을 방문한 뒤에 루트를 방문한다.
+```python
+def postorderTraversal(node):
+  if node.left: postorderTraversal(node.left)
+  if node.right: postorderTraversal(node.right)
+  print(node)
+```
 
 <br><br>
