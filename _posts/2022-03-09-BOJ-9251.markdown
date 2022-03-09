@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[BOJ] 최장 증가 부분 수열"
-date: 2022-02-21 00:00:00 +0300
+title: "[BOJ] 최장 공통 부분 수열"
+date: 2022-03-09 00:00:00 +0300
 tags: [Algorithm, BOJ]
 ---
 
