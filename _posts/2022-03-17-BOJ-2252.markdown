@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[BOJ] 위상 정렬"
+title: "[BOJ] 위상 정렬 Basic"
 date: 2022-03-17 00:00:00 +0300
 tags: [Algorithm, BOJ]
 ---
@@ -32,7 +32,7 @@ input = sys.stdin.readline
 n, m = map(int, input().split())
 inDegree = [0] * (n + 1)
 graph = [[] for _ in range(n + 1)]
-dp = []
+result = []
 
 for _ in range(m):
     a, b = map(int, input().split())
@@ -46,13 +46,13 @@ for i in range(1, n + 1):
 
 while queue:
     x = queue.popleft()
-    dp.append(x)
+    result.append(x)
     for i in graph[x]:
         inDegree[i] -= 1
         if inDegree[i] == 0:
             queue.append(i)
             
-print(*dp)
+print(*result)
 ```
 
 <br>
@@ -69,11 +69,11 @@ print(*dp)
 
 
 #### 아래의 과정을 통해 덱에서 나오는 순서대로 노드들이 정렬된다.
-'''
+```
 1. 덱의 왼쪽에 있는 노드를 순서대로 꺼낸다.
 2. 덱에서 꺼낸 노드에서 다른 노드로 향하는 간선이 있다면, 다른 노드의 진입 차수를 감소시킨다.
 3. 다른 노드의 진입 차수가 0이 되었다면, 덱에 삽입한다.
 4. 위의 과정을 반복한다.
-'''
+```
 
 <br>
